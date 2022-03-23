@@ -1,0 +1,10 @@
+
+[[outputs.influxdb_v2]]
+  urls = ["http://127.0.0.1:8086"]
+  bucket = "power"
+  organization = "frogpond"
+  token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx=="
+
+[[inputs.execd]]
+  ## Commands array
+  command = [ "vue2", "-user", "xxxxx@yyyy.com", "-password", "hunter2"]
